@@ -1,0 +1,14 @@
+const _PREFIX = 'transactions__';
+
+const INITIALIZE = _PREFIX + 'INITIALIZE';
+const UPDATE_FILTERS = _PREFIX + 'UPDATE_FILTERS';
+const REQUEST_START = _PREFIX + 'REQUEST_START';
+const REQUEST_STOP = _PREFIX + 'REQUEST_STOP';
+
+
+export default {
+    INITIALIZE,
+    UPDATE_FILTERS,
+    REQUEST_START,
+    REQUEST_STOP,
+}

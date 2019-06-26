@@ -1,0 +1,43 @@
+$good-status-color: rgba(46, 204, 64, .5);
+$bad-status-color: rgba(255, 65, 54, .5);
+
+.user-assets-table {
+  .asset-row {
+    &.status-good {
+      background-color: $good-status-color;
+
+      &:hover {
+        background-color: darken($good-status-color, 10%);
+      }
+    }
+
+    &.status-bad {
+      background-color: $bad-status-color;
+
+      &:hover {
+        background-color: darken($bad-status-color, 10%);
+      }
+    }
+  }
+
+  .menu-button {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: .1rem;
+    margin: 0;
+
+    .menu-icon {
+      height: 1.25rem;
+    }
+  }
+
+  .col-price {
+    text-align: right;
+    white-space: nowrap !important;
+  }
+
+  .col-count {
+    text-align: center;
+  }
+
+}

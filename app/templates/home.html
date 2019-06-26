@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+    <div class="callout large primary">
+        <div class="row column text-center">
+            <h1>Welcome to</h1>
+            <h2 class="subheader">TTP Trading</h2>
+        </div>
+    </div>
+    <div class="callout large secondary">
+        <div class="row column text-center">
+            <a href="{% url 'user:login' %}">Login Here</a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,25 @@
+.order-summary-table {
+  th, td {
+    text-align: left;
+  }
+
+  th {
+    background-color: $table-striped-background;
+  }
+
+  .open-close-head,
+  .high-low-head {
+    th {
+      border-top: 3px double $light-gray;
+      text-align: center;
+    }
+  }
+
+  .open-close-body,
+  .high-low-body {
+    td {
+      border-bottom: 3px double $light-gray;
+      text-align: center;
+    }
+  }
+}

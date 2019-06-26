@@ -1,0 +1,10 @@
+{% extends "user-base.html" %}
+
+{% block user_main %}
+    <div class="callout large primary">
+        <div class="row column text-center">
+            <h1>Welcome</h1>
+            <h2 class="subheader">{{ request.user.name }}</h2>
+        </div>
+    </div>
+{% endblock %}

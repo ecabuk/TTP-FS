@@ -1,0 +1,13 @@
+{% extends 'user-base.html' %}
+
+{% block user_main %}
+    <div id="root"></div>
+{% endblock %}
+
+{% block footer_js %}
+    <script>
+        jQuery(function () {
+            window.ttp.renderApp("{{ jsApp }}", {});
+        });
+    </script>
+{% endblock %}

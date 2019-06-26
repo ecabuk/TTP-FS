@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div class="grid-x grid-padding-x align-center-middle">
+        <div class="cell medium-6 large-3">
+            <form class="callout text-left" method="post" action="{% url 'user:login' %}">
+                <h2>Login</h2>
+                {% csrf_token %}
+
+                {% include 'base-form.html' %}
+                <button type="submit" class="button expanded">Login</button>
+            </form>
+            <div class="text-right">
+                Not registered? <a href="{% url 'user:registration' %}">Create an account</a>.
+            </div>
+        </div>
+    </div>
+{% endblock %}

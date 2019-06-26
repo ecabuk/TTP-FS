@@ -1,0 +1,31 @@
+.transactions-table {
+  width: 100%;
+
+  .col-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  .col-symbol,
+  .col-qty,
+  .col-price,
+  .col-total,
+  .col-date {
+    width: 1px;
+    white-space: nowrap;
+  }
+
+  .col-symbol,
+  .col-qty {
+    text-align: center;
+  }
+
+  .col-price,
+  .col-total,
+  .col-date {
+    text-align: right;
+  }
+
+}

@@ -33,8 +33,7 @@
     "webpack-stream": "^5.2.1"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "postinstall": "./node_modules/.bin/gulp"
   },
   "browserslist": {
     "production": [

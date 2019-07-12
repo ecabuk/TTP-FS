@@ -1,3 +1,38 @@
+## Demo
+
+https://ttp-fs.herokuapp.com
+
+---
+
+## Requirements
+
+- Python 3
+- NodeJS 8 or higher
+
+## Install
+
+Setup python
+```bash
+python3 -m venv venv && \
+source venv/bin/activate && \
+pip install -r requirements.txt
+```
+
+Setup JS
+```bash
+npm install
+```
+
+Start JS Development Environment
+```bash
+gulp dev
+```
+
+Start Django dev server
+```bash
+python3 app/manage.py runserver
+```
+
 
 ## API
 

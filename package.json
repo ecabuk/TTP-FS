@@ -16,7 +16,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "immutable": "^4.0.0-rc.12",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-locales-webpack-plugin": "^1.0.7",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
